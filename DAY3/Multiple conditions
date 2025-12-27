@@ -1,0 +1,31 @@
+marks = int(input("Enter your marks: "))
+
+while marks <0 or marks > 100:
+    print("Invalid number")
+    marks = int(input("Marks must be between 0 and 100:"))
+
+
+if marks >= 90:
+    print("Excellent performance")
+elif marks >= 80:
+    print("Grade B")
+elif marks >=70:
+    print("Grade C")
+elif marks >= 60:
+    print("Grade D")
+else:
+    print("Fail") 
+
+if marks >= 60:
+    print("Passed")
+else:
+    print("Failed")
+
+
+if marks > 75:
+    print("Above Average")
+elif marks == 75:
+    print("Average")
+else:
+    print("Below Average")
+ 
