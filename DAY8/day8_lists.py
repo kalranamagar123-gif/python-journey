@@ -13,6 +13,6 @@ for name in students:
 
 
 #Exatra practice
-print("Total students": len(students))
-print("First Students": students[0])
-print("Last Students": students[-1])
+print("Total students:", len(students))
+print("First Students:", students[0])
+print("Last Students:", students[-1])
